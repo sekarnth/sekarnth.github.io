@@ -1,0 +1,132 @@
+/* start font*/
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script&display=swap');
+/* end font*/
+/*style untuk selector - body */
+body {
+    background-color: navajowhite;
+} 
+/*end body*/
+/*style untuk heading - BEGIN */
+h1{
+    color: black;
+    font-family : 'PT Serif', serif;
+}
+h3{
+    color: darksalmon;
+    font-family :'PT Serif', serif;
+}
+h2{
+    color: black;
+    font-family: 'Ranga', cursive;
+}
+h5{
+    color: blue;
+    font-family:'Ranga', cursive; 
+}
+/*style untuk heading - END */
+/*style untuk line - BEGIN */
+a :active{
+    color: black;
+}
+a :hover{
+    color: chocolate;
+}
+a :visited{
+    color: chocolate;
+}
+/*style untuk line - END */
+/*style berbentuk class - BEGIN */
+.container {
+    background-color: rgba(252, 247, 247, 0.979) ;
+    margin: 10px auto ;
+    overflow: auto;
+    width: 64%;
+}
+.container1 {
+    background-color: navajowhite;
+}
+.font {
+    font-family: 'Dancing Script', cursive;
+}
+.font a {
+    font-family: 'Playfair Display SC', serif;
+}
+/*style berbentuk class - END*/
+/*menu header - BEGIN */
+.menu-header {
+    background-color: antiquewhite;
+    border-radius: 40px;
+    box-shadow: 
+        0 3px 5px - 1px rgba(0, 0, 0, 0.16),
+        0 3px 5px 0 rgba(0, 0, 0, 0.16),
+        0 18px 18px rgba(0, 0, 0, 0.16);
+}
+.menu-header li {
+    color: goldenrod;
+}
+.menu-header a {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    text-decoration: black;
+    padding: 20px 20px;
+    letter-spacing: 1px;
+}
+.menu-header a:hover {
+    color: chocolate;
+}
+/*menu header - end */
+
+/*card home - BEGIN */
+.cardhome {
+    background-color: chocolate;
+    background-image: url(../image/f.jpg);
+    width: 15%;
+    height: 200px;
+    border-radius: 0px 0px 50px 50px;
+    box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.10);  
+    display: grid;
+    text-align: center;
+}
+.cardhead {
+    border-bottom: solid 0px black;
+    padding: 20x 20px;
+}
+.cardhead h3 {
+    margin: 0px;
+    text-align: right;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.cardbody {
+    padding: 10px;
+    text-align: center;
+}
+.cardbody p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 16px;
+}
+.cardflex {
+    display: flex;
+    justify-content: center;
+}
+/*card home - END*/
+/*start logo*/
+.logo{
+    text-align: right;
+}
+/*end logo*/
+/*start jumbotron*/
+.jumbotron{
+    background-image: url("../image/f.jpg");
+    background-color: lightsteelblue;
+    border: solid 1px lightcoral;
+    border-radius:2px;
+}
+.jumbotron h1{
+    margin: 20px 40px ;
+    font-size:24px;
+}
+.jumbotron h3{
+    margin: 20px 40px;
+    font-size:20px;
+}
+/*end jumbotron*/
