@@ -11,17 +11,33 @@ h1{
     color: black;
     font-family : 'PT Serif', serif;
 }
+h2{
+    color: black;
+    font-family: 'Dancing Script', cursive; 
+}
 h3{
     color: darksalmon;
     font-family :'PT Serif', serif;
 }
-h2{
-    color: black;
-    font-family: 'Ranga', cursive;
+h4{
+    color: coral;
+    font-family : 'Dancing Script', cursive; 
+    text-align: center;
+    font-size: x-large;
+    letter-spacing: 1px; 
 }
 h5{
-    color: blue;
-    font-family:'Ranga', cursive; 
+    color: black;
+    font-family:  'Cormorant', serif;
+    text-align: center;
+    font-size: large;
+}
+h6{
+    color: black;
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: xx-large;
+    text-align: center;
+    letter-spacing: 1px;
 }
 /*style untuk heading - END */
 /*style untuk line - BEGIN */
@@ -37,19 +53,26 @@ a :visited{
 /*style untuk line - END */
 /*style berbentuk class - BEGIN */
 .container {
-    background-color: rgba(252, 247, 247, 0.979) ;
+    background-color: white;
+    background-image: url(../image/pattern.jpg);
     margin: 10px auto ;
     overflow: auto;
-    width: 64%;
+    width: 90%;
 }
 .container1 {
-    background-color: navajowhite;
+    background-image: url(../image/pattern.jpg);
 }
 .font {
     font-family: 'Dancing Script', cursive;
 }
 .font a {
-    font-family: 'Playfair Display SC', serif;
+    font-family: 'Fugaz One', cursive;
+}
+.font b{
+    font-family: 'Julius Sans One', sans-serif;
+}
+.position {
+    text-align: center;
 }
 /*style berbentuk class - END*/
 /*menu header - BEGIN */
@@ -79,7 +102,7 @@ a :visited{
 /*card home - BEGIN */
 .cardhome {
     background-color: chocolate;
-    background-image: url(../image/f.jpg);
+    background-image: url(../image/pattern.jpg);
     width: 15%;
     height: 200px;
     border-radius: 0px 0px 50px 50px;
@@ -111,19 +134,19 @@ a :visited{
 /*card home - END*/
 /*start logo*/
 .logo{
-    text-align: right;
+    text-align: center;
 }
 /*end logo*/
 /*start jumbotron*/
 .jumbotron{
-    background-image: url("../image/f.jpg");
-    background-color: lightsteelblue;
-    border: solid 1px lightcoral;
-    border-radius:2px;
+    background-color: thistle;
+    background-image: url(../image/oli.jpg);
+    border: solid 1px lightgoldenrodyellow;
+    border-radius:1px;
 }
 .jumbotron h1{
-    margin: 20px 40px ;
-    font-size:24px;
+    margin: 10px 30px ;
+    font-size:25px;
 }
 .jumbotron h3{
     margin: 20px 40px;
